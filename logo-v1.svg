@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 88" width="360" height="88" role="img" aria-label="The Reality Check logo">
+  <defs>
+    <style><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@500;600&display=swap');
+      .rc-mark-ring   { fill: none; stroke: #3D5A47; stroke-width: 1.5; }
+      .rc-mark-check  { fill: none; stroke: #3D5A47; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .rc-sep         { stroke: #D8D1C7; stroke-width: 1; }
+      .rc-label       { font-family: 'DM Sans', sans-serif; font-size: 9px; font-weight: 600; letter-spacing: 4px; fill: #8B7355; }
+      .rc-wordmark    { font-family: 'Playfair Display', Georgia, serif; font-size: 28px; font-weight: 700; fill: #1C1C1A; }
+    ]]></style>
+  </defs>
+
+  <!-- Mark: thin circle + checkmark -->
+  <circle class="rc-mark-ring" cx="44" cy="44" r="30"/>
+  <path  class="rc-mark-check" d="M 27,44 L 38,55 L 62,25"/>
+
+  <!-- Separator -->
+  <line class="rc-sep" x1="94" y1="18" x2="94" y2="70"/>
+
+  <!-- Wordmark -->
+  <text class="rc-label"    x="109" y="35">THE</text>
+  <text class="rc-wordmark" x="107" y="63">Reality Check</text>
+</svg>

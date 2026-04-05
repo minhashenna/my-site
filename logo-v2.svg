@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 116" width="320" height="116" role="img" aria-label="The Reality Check typographic logo">
+  <defs>
+    <style><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@500;600&display=swap');
+      .rc2-the      { font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 7px; fill: #8B7355; }
+      .rc2-reality  { font-family: 'Playfair Display', Georgia, serif; font-size: 52px; font-weight: 700; fill: #1C1C1A; letter-spacing: -1px; }
+      .rc2-check    { font-family: 'Playfair Display', Georgia, serif; font-size: 22px; font-style: italic; fill: #3D5A47; letter-spacing: 1px; }
+      .rc2-rule     { stroke: #D8D1C7; stroke-width: 1; }
+    ]]></style>
+  </defs>
+
+  <!-- "THE" -->
+  <text class="rc2-the" x="160" y="22" text-anchor="middle">THE</text>
+
+  <!-- Top rule -->
+  <line class="rc2-rule" x1="40" y1="30" x2="280" y2="30"/>
+
+  <!-- "REALITY" -->
+  <text class="rc2-reality" x="160" y="80" text-anchor="middle">REALITY</text>
+
+  <!-- Bottom rule -->
+  <line class="rc2-rule" x1="40" y1="90" x2="280" y2="90"/>
+
+  <!-- "CHECK" -->
+  <text class="rc2-check" x="160" y="110" text-anchor="middle">check</text>
+</svg>
