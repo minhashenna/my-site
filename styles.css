@@ -124,7 +124,7 @@ p + p { margin-top: 1.2em; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 100;
-  padding: 1.25rem 0;
+  padding: 1rem 0;
   transition: background 0.3s var(--ease), box-shadow 0.3s var(--ease);
 }
 .nav.scrolled {
